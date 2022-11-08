@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RUN",
+            "program": "${workspaceRoot}/lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+            ]
+        }
+    ]
+}
