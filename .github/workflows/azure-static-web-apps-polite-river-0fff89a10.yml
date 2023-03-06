@@ -16,9 +16,9 @@ jobs:
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v2
-      - uses: subosito/flutter-action@v1
+      - uses: subosito/flutter-action@v2
         with:
-          submodules: true
+          channel: 'stable'
       - name: Flutter install and build
         run:
           flutter pub get
